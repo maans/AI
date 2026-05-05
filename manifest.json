@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "AI-Vagt Prototype",
+  "version": "1.0",
+  "description": "Overvåger brug af AI-værktøjer under eksamen.",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
