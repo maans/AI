@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 300px; font-family: system-ui, sans-serif; padding: 10px; margin: 0; }
+    .header { font-weight: bold; border-bottom: 1px solid #ccc; padding-bottom: 8px; margin-bottom: 10px; display: flex; justify-content: space-between; }
+    .alert { color: white; background: #ff4444; padding: 10px; text-align: center; border-radius: 4px; display: none; margin-bottom: 10px; font-weight: bold; }
+    .log-entry { font-size: 12px; margin-bottom: 8px; padding: 5px; border-bottom: 1px solid #eee; }
+    .time { color: #888; font-size: 10px; }
+    button { font-size: 10px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <span>AI-Vagt Status</span>
+    <button id="clear">Ryd log</button>
+  </div>
+  <div id="alert-box" class="alert">AI AKTIVITET FUNDET!</div>
+  <div id="log">Søgning i gang...</div>
+  <script src="popup.js"></script>
+</body>
+</html>
